@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HTTP_Methods,,,2018-12-12 10:49:31,2018-12-12 10:49:53,21.295s,PASSED
+,,,,,,
+Test Cases/HTTP_Methods,,,2018-12-12 10:49:32,2018-12-12 10:49:52,20.472s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestServices/List_User""))",,,2018-12-12 10:49:33,2018-12-12 10:49:40,7.228s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestServices/Create_User""))",,,2018-12-12 10:49:40,2018-12-12 10:49:43,2.680s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestServices/Update_User""))",,,2018-12-12 10:49:43,2018-12-12 10:49:50,7.471s,PASSED
+"sendRequestAndVerify(findTestObject(""UserRestServices/Delete_User""))",,,2018-12-12 10:49:50,2018-12-12 10:49:52,2.054s,PASSED

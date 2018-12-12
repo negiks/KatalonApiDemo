@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Calculator" time="18" tests="4" failures="0" errors="0">
+   <testsuite name="Calculator" tests="4" failures="0" errors="0" time="18" timestamp="2018-12-05 11:45:28" hostname="kuldeepr - SDD-QA" id="Test Suites/UserRestServices/Calculator">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kuldeepr\\Desktop\\Code\\Sample_API_Demo\\sample_demo\\Reports\\UserRestServices\\Calculator\\20181205_114524"/>
+         <property name="logFiles" value="C:\\Users\\kuldeepr\\Desktop\\Code\\Sample_API_Demo\\sample_demo\\Reports\\UserRestServices\\Calculator\\20181205_114524\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kuldeepr - SDD-QA"/>
+         <property name="hostAddress" value="192.168.0.212"/>
+         <property name="os" value="Windows 8 64bit"/>
+         <property name="katalonVersion" value="5.9.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Calculator_Test/Addition" classname="Test Cases/Calculator_Test/Addition" status="PASSED">
+         <system-out><![CDATA[2018-12-05 11:45:29 - [TEST_CASE][PASSED] - Test Cases/Calculator_Test/Addition: Test Cases/Calculator_Test/Addition
+
+2018-12-05 11:45:29 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Calculator_WebService/Addition")): Send request and verify the response successfully
+
+2018-12-05 11:45:35 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-12-05 11:45:35 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2018-12-05 11:45:35 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2018-12-05 11:45:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-05 11:45:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-05 11:45:35 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2018-12-05 11:45:35 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null
+
+2018-12-05 11:45:35 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-12-05 11:45:35 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-12-05 11:45:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", 6): Verify element property value successfully
+
+2018-12-05 11:45:36 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator_Test/Divide" classname="Test Cases/Calculator_Test/Divide" status="PASSED">
+         <system-out><![CDATA[2018-12-05 11:45:36 - [TEST_CASE][PASSED] - Test Cases/Calculator_Test/Divide: Test Cases/Calculator_Test/Divide
+
+2018-12-05 11:45:36 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Calculator_WebService/Divide")): Send request successfully
+
+2018-12-05 11:45:39 - [MESSAGE][INFO] - HAR: C:\Users\kuldeepr\Desktop\Code\Sample_API_Demo\sample_demo\Reports\UserRestServices\Calculator\20181205_114524\requests\main\0.har
+
+2018-12-05 11:45:40 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator_Test/Mulitple" classname="Test Cases/Calculator_Test/Mulitple" status="PASSED">
+         <system-out><![CDATA[2018-12-05 11:45:40 - [TEST_CASE][PASSED] - Test Cases/Calculator_Test/Mulitple: Test Cases/Calculator_Test/Mulitple
+
+2018-12-05 11:45:40 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Calculator_WebService/Mulitply")): Send request successfully
+
+2018-12-05 11:45:43 - [MESSAGE][INFO] - HAR: C:\Users\kuldeepr\Desktop\Code\Sample_API_Demo\sample_demo\Reports\UserRestServices\Calculator\20181205_114524\requests\main\1.har
+
+2018-12-05 11:45:43 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator_Test/Substract" classname="Test Cases/Calculator_Test/Substract" status="PASSED">
+         <system-out><![CDATA[2018-12-05 11:45:43 - [TEST_CASE][PASSED] - Test Cases/Calculator_Test/Substract: Test Cases/Calculator_Test/Substract
+
+2018-12-05 11:45:43 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Calculator_WebService/Substract")): Send request successfully
+
+2018-12-05 11:45:46 - [MESSAGE][INFO] - HAR: C:\Users\kuldeepr\Desktop\Code\Sample_API_Demo\sample_demo\Reports\UserRestServices\Calculator\20181205_114524\requests\main\2.har
+
+2018-12-05 11:45:46 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-05 11:45:28 - [TEST_SUITE][PASSED] - Calculator: Test Cases/Calculator_Test/Substract]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

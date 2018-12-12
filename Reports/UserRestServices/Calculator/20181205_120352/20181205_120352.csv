@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Calculator,,,2018-12-05 12:03:57,2018-12-05 12:04:19,22.513s,PASSED
+,,,,,,
+Test Cases/Calculator_Test/Addition,,,2018-12-05 12:03:58,2018-12-05 12:04:09,11.080s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Calculator_WebService/Addition""))",,,2018-12-05 12:03:59,2018-12-05 12:04:08,9.195s,PASSED
+"verifyElementPropertyValue(response, ""AddResponse.AddResult"", 6)",,,2018-12-05 12:04:08,2018-12-05 12:04:09,0.726s,PASSED
+,,,,,,
+Test Cases/Calculator_Test/Divide,,,2018-12-05 12:04:09,2018-12-05 12:04:13,3.849s,PASSED
+"sendRequest(findTestObject(""Calculator_WebService/Divide""))",,,2018-12-05 12:04:09,2018-12-05 12:04:13,3.489s,PASSED
+,,,,,,
+Test Cases/Calculator_Test/Mulitple,,,2018-12-05 12:04:13,2018-12-05 12:04:16,3.225s,PASSED
+"sendRequest(findTestObject(""Calculator_WebService/Mulitply""))",,,2018-12-05 12:04:13,2018-12-05 12:04:16,2.907s,PASSED
+,,,,,,
+Test Cases/Calculator_Test/Substract,,,2018-12-05 12:04:16,2018-12-05 12:04:19,3.226s,PASSED
+"sendRequest(findTestObject(""Calculator_WebService/Substract""))",,,2018-12-05 12:04:16,2018-12-05 12:04:19,2.996s,PASSED

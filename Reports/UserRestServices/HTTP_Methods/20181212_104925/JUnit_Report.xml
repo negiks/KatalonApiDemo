@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HTTP_Methods" time="21" tests="1" failures="0" errors="0">
+   <testsuite name="HTTP_Methods" tests="1" failures="0" errors="0" time="21" timestamp="2018-12-12 10:49:31" hostname="kuldeepr - SDD-QA" id="Test Suites/UserRestServices/HTTP_Methods">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\kuldeepr\\Desktop\\Code\\Sample_API_Demo\\sample_demo\\Reports\\UserRestServices\\HTTP_Methods\\20181212_104925"/>
+         <property name="logFiles" value="C:\\Users\\kuldeepr\\Desktop\\Code\\Sample_API_Demo\\sample_demo\\Reports\\UserRestServices\\HTTP_Methods\\20181212_104925\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="kuldeepr - SDD-QA"/>
+         <property name="hostAddress" value="192.168.0.27"/>
+         <property name="os" value="Windows 8 64bit"/>
+         <property name="katalonVersion" value="5.9.0.1"/>
+      </properties>
+      <testcase name="Test Cases/HTTP_Methods" classname="Test Cases/HTTP_Methods" status="PASSED">
+         <system-out><![CDATA[2018-12-12 10:49:32 - [TEST_CASE][PASSED] - Test Cases/HTTP_Methods: Test Cases/HTTP_Methods
+
+2018-12-12 10:49:33 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestServices/List_User")): Send request and verify the response successfully
+
+2018-12-12 10:49:39 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-12-12 10:49:40 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2018-12-12 10:49:40 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2018-12-12 10:49:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2018-12-12 10:49:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-12 10:49:40 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2018-12-12 10:49:40 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[1].first_name", "Charles"): Verify element property value successfully
+
+2018-12-12 10:49:40 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-12-12 10:49:40 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-12-12 10:49:40 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-12-12 10:49:40 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestServices/Create_User")): Send request and verify the response successfully
+
+2018-12-12 10:49:43 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-12-12 10:49:43 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2018-12-12 10:49:43 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2018-12-12 10:49:43 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-12-12 10:49:43 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-12-12 10:49:43 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestServices/Update_User")): Send request and verify the response successfully
+
+2018-12-12 10:49:50 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-12-12 10:49:50 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2018-12-12 10:49:50 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2018-12-12 10:49:50 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-12-12 10:49:50 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2018-12-12 10:49:50 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("UserRestServices/Delete_User")): Send request and verify the response successfully
+
+2018-12-12 10:49:52 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2018-12-12 10:49:52 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2018-12-12 10:49:52 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2018-12-12 10:49:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2018-12-12 10:49:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-12-12 10:49:52 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(204): null
+
+2018-12-12 10:49:52 - [MESSAGE][PASSED] - Verify response successfully
+
+2018-12-12 10:49:52 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-12 10:49:31 - [TEST_SUITE][PASSED] - HTTP_Methods: Test Cases/HTTP_Methods]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
